@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melvin Village Cookie Cutters - Handcrafted Baking Magic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            color: #5D4037; /* Rustic Brown */
+        }
+        h1, h2, h3, h4, .serif {
+            font-family: 'Crimson Text', serif;
+        }
+        .bg-forest { background-color: #2D5A3D; }
+        .text-forest { color: #2D5A3D; }
+        .bg-cream { background-color: #FFF8E7; }
+        .bg-sky { background-color: #87CEEB; }
+        .btn-gold { 
+            background-color: #D4AF37; 
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .btn-gold:hover {
+            background-color: #B5952F;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-cream flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-bold text-forest serif tracking-wide">Melvin Village</span>
+                <span class="text-sm uppercase tracking-widest text-gray-500 hidden sm:inline">Cookie Cutters</span>
+            </div>
+            <a href="https://etsy.com/shop/MelvinVillageCookieCutters" target="_blank" class="btn-gold px-6 py-2 rounded-full font-bold shadow-md">
+                Shop on Etsy
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-forest text-white py-20 px-4 text-center relative overflow-hidden">
+        <!-- Background Pattern/Image Overlay (Optional) -->
+        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/wood-pattern.png')]"></div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <p class="text-gold uppercase tracking-widest text-sm mb-4 font-bold">Est. 2026 • New Hampshire</p>
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 italic leading-tight">
+                Baking Memories,<br>One Cookie at a Time.
+            </h1>
+            <p class="text-xl md:text-2xl mb-10 text-cream opacity-90 max-w-2xl mx-auto serif">
+                Handcrafted, 3D-printed cookie cutters inspired by the charm of small-town New England.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#featured" class="px-8 py-3 bg-white text-forest font-bold rounded-full hover:bg-gray-100 transition shadow-lg">
+                    View Collection
+                </a>
+                <a href="https://etsy.com/shop/MelvinVillageCookieCutters" target="_blank" class="px-8 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-forest transition">
+                    Visit Etsy Shop
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Collection -->
+    <section id="featured" class="py-16 container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-forest mb-4">Fresh from the Oven</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                Our latest designs, printed fresh for every order. From holiday classics to quirky originals.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <!-- Product Card 1 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition group">
+                <div class="h-64 bg-gray-100 overflow-hidden relative">
+                    <!-- Placeholder for Mitten Image -->
+                    <img src="../gemini-mitten-cookie-sample.png" alt="Mitten Cookie Cutter" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-forest shadow-sm">BESTSELLER</div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-forest mb-2">The Classic Mitten</h3>
+                    <p class="text-gray-600 mb-4 text-sm">Perfect for winter baking. Cozy up with warm spices and a warm heart.</p>
+                    <a href="#" class="block text-center w-full py-2 border border-forest text-forest rounded hover:bg-forest hover:text-white transition font-bold">View on Etsy</a>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition group">
+                <div class="h-64 bg-gray-100 overflow-hidden relative flex items-center justify-center bg-sky/20">
+                    <span class="text-forest opacity-50 text-6xl">🌲</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-forest mb-2">Village Pine Tree</h3>
+                    <p class="text-gray-600 mb-4 text-sm">A rustic evergreen shape inspired by our local forests.</p>
+                    <a href="#" class="block text-center w-full py-2 border border-forest text-forest rounded hover:bg-forest hover:text-white transition font-bold">View on Etsy</a>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition group">
+                <div class="h-64 bg-gray-100 overflow-hidden relative flex items-center justify-center bg-sky/20">
+                    <span class="text-forest opacity-50 text-6xl">🦌</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-forest mb-2">Woodland Moose</h3>
+                    <p class="text-gray-600 mb-4 text-sm">A majestic moose silhouette for true northern charm.</p>
+                    <a href="#" class="block text-center w-full py-2 border border-forest text-forest rounded hover:bg-forest hover:text-white transition font-bold">View on Etsy</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-forest text-white py-20 px-4">
+        <div class="container mx-auto max-w-5xl flex flex-col md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <img src="../melvin-village-sign-original.jpg" alt="Melvin Village Sign" class="rounded-lg shadow-2xl transform -rotate-2 border-4 border-white">
+            </div>
+            <div class="w-full md:w-1/2">
+                <h2 class="text-4xl font-bold mb-6 text-cream">Our Story</h2>
+                <div class="prose prose-lg text-gray-200">
+                    <p class="mb-4">
+                        Melvin Village is the kind of place where neighbors wave from their porches, winters bring real snow (not the slushy city kind), and homemade cookies are serious business.
+                    </p>
+                    <p class="mb-4">
+                        We started this shop to share that small-town warmth with bakers everywhere. Even though we use modern 3D printing technology, every cutter is designed with the heart of a rustic New England kitchen.
+                    </p>
+                    <p>
+                        <strong>Made with Love (and PLA):</strong> Our cutters are printed on-demand using food-safe, plant-based plastic. No mass production, just quality tools for your kitchen.
+                    </p>
+                </div>
+                <div class="mt-8">
+                    <span class="font-handwriting text-2xl text-gold block mb-2">Happy Baking,</span>
+                    <span class="font-bold text-lg">The Melvin Village Team 🦉</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Care -->
+    <section class="py-16 bg-cream">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-forest text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">🌱</div>
+                    <h3 class="text-xl font-bold text-forest mb-2">Eco-Friendly</h3>
+                    <p class="text-gray-600">Made from biodegradable PLA plastic derived from corn starch.</p>
+                </div>
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-forest text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">🧼</div>
+                    <h3 class="text-xl font-bold text-forest mb-2">Hand Wash Only</h3>
+                    <p class="text-gray-600">PLA is heat sensitive! Warm water and soap only—no dishwashers, please.</p>
+                </div>
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-forest text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">🚀</div>
+                    <h3 class="text-xl font-bold text-forest mb-2">Fast Shipping</h3>
+                    <p class="text-gray-600">Printed on demand and shipped quickly to get you baking sooner.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-8 px-4 border-t-4 border-gold">
+        <div class="container mx-auto text-center">
+            <p class="mb-4 text-lg text-white font-bold serif">Melvin Village Cookie Cutters</p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="#" class="hover:text-white transition">Etsy Shop</a>
+                <a href="#" class="hover:text-white transition">Instagram</a>
+                <a href="#" class="hover:text-white transition">Contact</a>
+            </div>
+            <p class="text-sm">
+                &copy; 2026 Melvin Village Cookie Cutters. All rights reserved.<br>
+                <span class="opacity-50">Designed by Melvin (v2.0)</span>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
